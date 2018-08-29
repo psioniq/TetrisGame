@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1D93DF70-372E-AD32-FE32-7056020C957D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLibrary", "..\..\TFS\NoxiaZ\Games\Tetris\Model Library\ModelLibrary.csproj", "{7F944996-0EA3-4415-86CB-FCAA328C30BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisClient", "..\..\TFS\NoxiaZ\Games\Tetris\TetrisClient\TetrisClient.csproj", "{D66DB2CF-67B0-4F58-A1C9-30DFD034558F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +19,20 @@ Global
 		{1D93DF70-372E-AD32-FE32-7056020C957D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D93DF70-372E-AD32-FE32-7056020C957D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D93DF70-372E-AD32-FE32-7056020C957D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F944996-0EA3-4415-86CB-FCAA328C30BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F944996-0EA3-4415-86CB-FCAA328C30BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F944996-0EA3-4415-86CB-FCAA328C30BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F944996-0EA3-4415-86CB-FCAA328C30BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66DB2CF-67B0-4F58-A1C9-30DFD034558F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66DB2CF-67B0-4F58-A1C9-30DFD034558F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66DB2CF-67B0-4F58-A1C9-30DFD034558F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66DB2CF-67B0-4F58-A1C9-30DFD034558F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98FACAEC-3EE2-4AF2-9BF9-A26449F383C3}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
